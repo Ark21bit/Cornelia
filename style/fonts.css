@@ -1,0 +1,105 @@
+.hero{
+    font-family: 'Motter Corpus Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 128px;    
+    color: #C4C4C4;    
+}
+
+.h1{    
+    font-family: 'Motter Corpus Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    color: #C4C4C4;
+}
+
+.h2{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 72px;    
+    color: #C4C4C4;
+}
+
+.brand_header{
+    font-family: 'Motter Corpus Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;    
+    color: #C4C4C4;
+}
+
+.body{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;    
+    color: #C4C4C4;
+}
+
+.paragraph{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;    
+    color: #C4C4C4;
+}
+
+.navigation{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;    
+    color: #C4C4C4;
+    
+}
+
+.brand_footer{
+    font-family: 'Motter Corpus Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;    
+    color: #C4C4C4;
+}
+
+.btn{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;    
+    color: #C4C4C4;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: local('Metropolis Regular Italic'), local('Metropolis-RegularItalic'), url('Metropolisregularitalic.woff2') format('woff2'), url('Metropolisregularitalic.woff') format('woff'), url('Metropolisregularitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: local('Metropolis Semi Bold'), local('Metropolis-SemiBold'), url('Metropolissemibold.woff2') format('woff2'), url('Metropolissemibold.woff') format('woff'), url('Metropolissemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: local('Metropolis Bold'), local('Metropolis-Bold'), url('Metropolisbold.woff2') format('woff2'), url('Metropolisbold.woff') format('woff'), url('Metropolisbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import url(//db.onlinewebfonts.com/c/851a66e8ffb39418d7aa338c5c37b59d?family=Motter+Corpus+Std);
+@font-face {font-family: "Motter Corpus Std"; src: url("//db.onlinewebfonts.com/t/851a66e8ffb39418d7aa338c5c37b59d.eot"); src: url("//db.onlinewebfonts.com/t/851a66e8ffb39418d7aa338c5c37b59d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/851a66e8ffb39418d7aa338c5c37b59d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/851a66e8ffb39418d7aa338c5c37b59d.woff") format("woff"), url("//db.onlinewebfonts.com/t/851a66e8ffb39418d7aa338c5c37b59d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/851a66e8ffb39418d7aa338c5c37b59d.svg#Motter Corpus Std") format("svg"); }

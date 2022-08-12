@@ -1,0 +1,142 @@
+.Prose {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1em, 1fr) [main-start] minmax(0, 1228px) [main-end] minmax(1em, 1fr) [full-end];
+    grid-auto-rows: max-content;
+}
+
+.Prose > * {
+  grid-column: main;
+}
+
+.Prose-splash {
+    grid-column: full;
+}
+
+main{
+    flex-grow: 1;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: var(--font-Metropolis);
+    font-weight: 400;  
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+button {
+    font-family: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    resize: none;
+    background: none;
+}
+
+input {
+    font-family: inherit;
+}
+
+header{
+    min-height: 900px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1228px;
+    padding: 0 20px;
+    margin: 0 auto;    
+    width: 100%;
+}
+
+.flex{
+    display: flex;    
+}
+
+.align_center{
+    align-items: center;
+}
+
+.justify_between{
+    justify-content: space-between
+}
+
+.header__nav-link{
+    color: #0B4141;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: border .5s linear;
+}
+
+.header__logo-link{
+    flex-shrink: 0;
+}
+
+.header__nav-link:hover{    
+    border-bottom: 2px solid #0B4141;
+    transition: border .5s linear;
+}
+
+.header__nav{
+    margin-left: auto;
+    margin-right: 48px;    
+    display: flex;
+    gap: 24px;
+    
+}
+
+.btn_primary{
+    padding: 12px 40px;
+    background: #0B4141;
+    border-radius: 124px;
+    transition: box-shadow .5s linear;
+}
+
+.btn_primary:hover{
+    box-shadow: 5px 2px 20px 0px #0b4141;
+}
+
+.header__content{
+    position: relative;
+    flex-grow: 1;
+}
+
+.header__content_p{
+    max-width: 750px;
+    margin: 120px auto auto auto ;
+}
+
+.header__content-img{
+    position: absolute;
+    bottom: 0;
+}
